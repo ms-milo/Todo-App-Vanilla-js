@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+<body>
+    <div>
+    <h1 id ='my'>Todo App</h1>
+    <div class="add-task">
+        <form class="items">
+            <input type="text" id="inp" placeholder="Type Your Task">
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    <div id ='comp'>
+    <div class="incomplete">
+        <h1>Incomplete Tasks</h1>
+        <hr>
+        <ul id='list'>
+           <li class = 'lt'>
+            <label>Watch</label>
+            <input type="checkbox" class="box" name="checkbox" id="input" />
+            <button class='delt'>Delete</button>
+            </li> 
+           <li class = 'lt'>
+            <label>Run</label> 
+            <input type="checkbox" class="box" id="input"> 
+            <button class='delt'>Delete</button >
+            </li> 
+
+        </ul>
+    </div>
+        <div class="complete-task">
+            <h1>Complete Tasks</h1>
+            <hr>
+            <ul id='unlist'>
+                <li class = 'lt'>
+                    
+                 <label>Sleep</label>
+                 <input type="checkbox" class="box" checked id="input" > 
+                 <button class='delt'> Delete</button>
+                 </li> 
+                <li class = 'lt'>
+                 <label>Eat</label> 
+                 <input type="checkbox" class="box" id="input" checked> 
+                 <button class='delt'>Delete</button>
+                 </li> 
+     
+             </ul>
+        </div>
+    </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
