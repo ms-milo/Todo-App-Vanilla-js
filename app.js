@@ -54,8 +54,9 @@ window.addEventListener("load", function(event) {
             e.target.parentNode.remove()
         }
 
+        else{
         let par = e.target.parentNode.parentNode
-
+        
         if(par.id == 'list'){
             console.log(e.target);
             if (e.target.classList.contains('box')){
@@ -80,6 +81,6 @@ window.addEventListener("load", function(event) {
                 }
             }
         }
-        
+        }
     })
   });
