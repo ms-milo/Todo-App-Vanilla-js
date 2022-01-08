@@ -1,11 +1,3 @@
-let chbox = document.createElement('input')
-let delbt = document.createElement('button')
-let label = document.createElement('label')
-let li = document.createElement('li')
-
-// body = document.querySelector('div')
-// to = document.querySelector('h1')
-// test = document.getElementById('test')
 let add = document.getElementsByClassName('add-task')[0]
 add.addEventListener('submit', (e)=>{
     e.preventDefault()
